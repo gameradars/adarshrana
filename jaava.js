@@ -1,28 +1,28 @@
-window.addEventListener("wheel",function(dets){
-    if(dets.deltaY > 0){
-        gsap.to(".marquee",{
-            transform :"translateX(-200%)",
-            duration:4,
-            ease:"none",
-            repeat:-1,
-        })
-        gsap.to(".marquee img",{
-            rotate:180
-        })
-    }
-    else{
-        gsap.to(".marquee",{
-            transform :"translateX(0%)",
-            duration:4,
-            ease:"none",
-            repeat:-1,
-        })
-        gsap.to(".marquee img",{
-            rotate:0
-        })
-    }
-})
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container');
 
+hamburger.addEventListener('click', () => {
+	hamburger.classList.toggle('active');
+	mobile_menu.classList.toggle('active');
+});
+
+document.addEventListener('scroll', () => {
+	var scroll_position = window.scrollY;
+	if (scroll_position > 250) {
+		header.style.backgroundColor = '#29323c';
+	} else {
+		header.style.backgroundColor = 'transparent';
+	}
+});
+
+menu_item.forEach((item) => {
+	item.addEventListener('click', () => {
+		hamburger.classList.toggle('active');
+		mobile_menu.classList.toggle('active');
+	});
+});
         const navbar = document.getElementById('navbar')
         const closeMenu = document.getElementById('close')
         const menu = document.getElementById('menu')
