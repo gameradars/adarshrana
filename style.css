@@ -213,7 +213,7 @@ header .nav a:hover:before {
     width: 60%;
 }
 .acontent .col-right h2{
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-size: 400;
 }
 .acontent .col-right p{
@@ -249,6 +249,7 @@ header .nav a:hover:before {
     min-height: 100vh;
     color: #fff;
     padding-top: 90px;
+    padding-bottom: 30px;
 }
 .skills > h2{
     font-size: 3em;
@@ -391,7 +392,7 @@ header .nav a:hover:before {
 .service-content{
     padding-top: 40px;
     display: flex;
-    padding: 30px 0px 20px 150px;
+    padding: 30px 0px 20px 100px;
     gap: 10px;
 }
 .service-content .service1{
@@ -508,7 +509,7 @@ header .nav a:hover:before {
     flex-direction: column;
     /* flex-wrap: nowrap; */
     gap: 30px;
-    padding: 40px 0 50px 240px;
+    padding: 40px 0 50px 150px;
 }
 .wcontent .images{
     width: 330px;
@@ -572,7 +573,7 @@ header .nav a:hover:before {
 }
 .contact .contact-content{
     display: flex;
-    padding: 150px 0 40px 100px;
+    padding: 150px 0 40px 50px;
     gap: 30px;
 }
 .contact-content i{
