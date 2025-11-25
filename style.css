@@ -205,7 +205,7 @@ header .nav a:hover:before {
 }
 .acontent .col-left img{
     width: 320px;
-    height: 450px;
+    height: 480px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -249,7 +249,7 @@ header .nav a:hover:before {
     min-height: 100vh;
     color: #fff;
     padding-top: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .skills > h2{
     font-size: 3em;
@@ -286,10 +286,9 @@ header .nav a:hover:before {
 }
 .scontent .sleft{
     width: 44%;
-    height: 400px;
 }
 .scontent .sleft > h2{
-   font-size: 2.5em; 
+   font-size: 2.3em; 
    font-weight: 600;
 }
 .sleft p{
@@ -509,7 +508,7 @@ header .nav a:hover:before {
     flex-direction: column;
     /* flex-wrap: nowrap; */
     gap: 30px;
-    padding: 40px 0 50px 150px;
+    padding: 40px 0 50px 140px;
 }
 .wcontent .images{
     width: 330px;
@@ -573,7 +572,7 @@ header .nav a:hover:before {
 }
 .contact .contact-content{
     display: flex;
-    padding: 150px 0 40px 50px;
+    padding: 150px 0 40px 15px;
     gap: 30px;
 }
 .contact-content i{
