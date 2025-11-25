@@ -572,7 +572,7 @@ header .nav a:hover:before {
 }
 .contact .contact-content{
     display: flex;
-    padding: 150px 0 50px;
+    padding: 150px 130px 50px 130px;
     gap: 30px;
 }
 .contact-content i{
