@@ -537,6 +537,14 @@ html , body{
     background-color: #2E2E2E;
     cursor: pointer;
 }
+.fbright h3 a{
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
 .fbright h3:hover i{
     color: #fff; 
     opacity: 0.8;
